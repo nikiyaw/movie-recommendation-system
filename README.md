@@ -11,4 +11,12 @@ MovieLens 1M: https://grouplens.org/datasets/movielens/)https://grouplens.org/da
 
 Kaggle: https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata
 
+## Methodologies
 
+### Content-based filtering
+- Recommends items similar to those the user has shown interested in before by leveraging the features or characteristics of items
+- Approach: Cosine similarity -> Higher cosine similarity indicates greater content similarity
+
+### Collaborative-based filtering
+- Makes recommendations based on the preferences and behaviour of other users with similar preferences
+- Approach: kNN, Matrix Factorization, Deep Learning
